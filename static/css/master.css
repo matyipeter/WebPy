@@ -1,0 +1,7 @@
+p{
+    color: rgb(135, 39, 86);
+    width:100vw;
+    height:100vh;
+    display:grid;
+    place-content: center;
+}
