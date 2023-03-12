@@ -26,6 +26,16 @@ h1{
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-flow: column;
+}
+
+a:any-link{
+  color: lightseagreen;
+  text-decoration: none;
+}
+
+a:hover, a:active{
+  color: rgba(32,	178,	170, 70%)
 }
 
 .animated_button {
@@ -131,4 +141,4 @@ h1{
   
 .effect1:hover .bg:after{
     top: 6px;
-  }
+}
