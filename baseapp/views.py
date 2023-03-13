@@ -7,6 +7,9 @@ class IndexView(TemplateView):
 
 class MainView(TemplateView):
     template_name = 'baseapp/main.html'
+
+class Register(TemplateView):
+    template_name = 'baseapp/register.html'
     
     
 

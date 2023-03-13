@@ -21,7 +21,7 @@
                 Here you can continue without a registration or create a new account and enjoy every aspect of my site!
               </div>
               <div class="col info">
-                <a href="">Click here if you want to register!</a>
+                <a href="{% url 'registerpage' %}">Click here if you want to register!</a>
               </div>
               <div class="col info ln">
                 Or if you already have an account, just login
@@ -34,14 +34,7 @@
             Let's Go!
             <span class="bg"></span>
           </a>
-        </div>
-            
-    </div>
-    <div class="registration">
-        <form method="POST">
-            {% csrf_token %}
-
-        </form>
+        </div> 
     </div>
 </body>
 </html>

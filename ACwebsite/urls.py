@@ -20,5 +20,6 @@ from baseapp import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.MainView.as_view(), name='mainpage'),
-    path('index/', views.IndexView.as_view(), name='indexpage')
+    path('index/', views.IndexView.as_view(), name='indexpage'),
+    path('register/', views.Register.as_view(), name='registerpage'),
 ]
